@@ -1,0 +1,57 @@
+{
+    "name":"KRATOHVIL",	
+    "pointConfigFiles":"../cfg/factory/point/config.js",
+    "intervalOnOff2":"KOLBASA",
+    "relayIntervalOnOff":{
+        "meskals":
+            "default":[
+                {"gpio": "13", "state": "0", "interval": "::3"}],
+            "sequence":[
+                {"gpio": "13", "state": "1", "interval": "::5"},
+                {"gpio": "13", "state": "0", "interval": "::4"},
+                {"gpio": "13", "state": "1", "interval": "::10"},
+                {"gpio": "13", "state": "0", "interval": "::8"},
+                {"gpio": "13", "state": "1", "interval": "::15"},
+                {"gpio": "13", "state": "0", "interval": "::12"}],
+        "granato":
+            "default":[
+                {"gpio": "5", "state": "1", "interval": "::3"},
+                {"gpio": "11", "state": "0", "interval": ":2"}],
+            "sequence":[
+            {
+                "gpio": "5",
+                "state": "1",
+                "interval": "::5"
+            },
+            {
+                "gpio": "5",
+                "state": "0",
+                "interval": "::4"
+            },
+            {
+                "gpio": "11",
+                "state": "1",
+                "interval": "::3"
+            },
+            {
+                "gpio": "11",
+                "state": "0",
+                "interval": "::2"
+            }
+        ]
+    },
+
+    "internalIP":"127.0.0.1",
+    "internalPort":"7500",
+    "externalPort":"7250",
+    "webEmail":"vilis@mailof.com",
+    "webAliveInterval":"7200",	
+    "webEmailMutt":"../cfg/factory/muttrc.set",	
+    "scriptPath":"../cfg/factory/scripts",	
+    "logPath":"../data",
+    "webPort":"49888",
+    "eventPath":"../kika/event",
+    "errorPath":"../mika/error",	
+    "templatePath":"tmpl",
+    "templateExt":".tmpl"
+}

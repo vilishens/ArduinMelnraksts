@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>Bootstrap 3</title>
+        <meta charset="UTF-8">
+        <link href = "../externals/bootstrap.css" rel = "stylesheet">
+        <link href = "../vk_web/styles.css" rel = "stylesheet">
+    </head>
+    <body>
+        
+        <div class = "navbar navbar-inverse navbar-static-top">
+            <div class = "container">
+                <a href = "#" class = "navbar-brand"> Tech site</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>    
+                <div class = "collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class = "active"><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media<b class="caret"></b></a>
+                            <ul class = "dropdown-menu">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Google+</a></li>
+                                <li><a href="#">Instgram</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="page-header">
+                                <h3>What ever you want... <small>Posted on April 27th</small></h3>
+                            </div>
+                            <img class="featuredimg" src="../vk_web/img/lena4.jpg" width="100%">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            
+                            <h4>A Heading</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class ="col-lg-3">
+                    <div class="list-group">
+                        <a href="#" class ="list-group-item active">
+                            <h4 class="list-group-item-heading">lorem ipsum</h4>
+                            <p class="list-group-item-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class ="list-group-item">
+                            <h4 class="list-group-item-heading">lorem ipsum</h4>
+                            <p class="list-group-item-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class ="list-group-item">
+                            <h4 class="list-group-item-heading">lorem ipsum</h4>
+                            <p class="list-group-item-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class ="list-group-item">
+                            <h4 class="list-group-item-heading">lorem ipsum</h4>
+                            <p class="list-group-item-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+                        </a>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class ="list-group-item">
+                            <h4 class="list-group-item-heading">lorem ipsum</h4>
+                            <p class="list-group-item-text">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class = "navbar-text pull-left">Site Build By Volodja Daksh</p>
+                <a href="http://youtube.com/codersguide" class = "navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+            </div>
+        </div>
+        
+        
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact Tech Site</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+                                <div class ="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                </div>
+                            </div>            
+                            <div class="form-group">
+                                <label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+                                <div class ="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+                                <div class ="col-lg-10">
+                                    <textarea class = "form-control" rows="8">
+                                    </textarea>
+                                </div>
+                            </div>            
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-miss="modal">
+                                Close
+                            </a>
+                            <button class="btn btn-primary" type="submit">
+                                Send
+                            </button>
+                        </div>
+                   </form>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        
+        <script src = "../externals/jquery.js"></script>
+        <script src = "../externals/bootstrap.js"></script>
+    </body>
+</html>

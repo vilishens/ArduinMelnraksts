@@ -1,0 +1,55 @@
+=============== Jul 24, 2018 (EEST) ===============
+13:54:52.322419 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:54:52.356472 db@open opening
+13:54:52.357405 version@stat F·[] S·0B[] Sc·[]
+13:54:52.374761 db@janitor F·2 G·0
+13:54:52.374801 db@open done T·18.298776ms
+13:54:52.374831 db@close closing
+13:54:52.374898 db@close done T·65.83µs
+=============== Jul 24, 2018 (EEST) ===============
+13:54:52.374972 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:54:52.375092 version@stat F·[] S·0B[] Sc·[]
+13:54:52.375100 db@open opening
+13:54:52.375127 journal@recovery F·1
+13:54:52.375325 journal@recovery recovering @1
+13:54:52.375521 version@stat F·[] S·0B[] Sc·[]
+13:54:52.435531 db@janitor F·2 G·0
+13:54:52.435585 db@open done T·60.467655ms
+13:54:52.435694 db@close closing
+13:54:52.435744 db@close done T·44.952µs
+=============== Jul 24, 2018 (EEST) ===============
+13:54:52.503121 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:54:52.503259 version@stat F·[] S·0B[] Sc·[]
+13:54:52.503278 db@open opening
+13:54:52.503317 journal@recovery F·1
+13:54:52.503977 journal@recovery recovering @2
+13:54:52.525714 memdb@flush created L0@4 N·1 S·188B "htt..ata,v1":"htt..ata,v1"
+13:54:52.527710 version@stat F·[1] S·188B[188B] Sc·[0.25]
+13:54:52.586416 db@janitor F·3 G·0
+13:54:52.586440 db@open done T·83.156329ms
+13:54:52.586515 db@close closing
+13:54:52.586564 db@close done T·44.587µs
+=============== Jul 24, 2018 (EEST) ===============
+13:58:00.145279 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:58:00.145403 version@stat F·[1] S·188B[188B] Sc·[0.25]
+13:58:00.145413 db@open opening
+13:58:00.145443 journal@recovery F·1
+13:58:00.146015 journal@recovery recovering @5
+13:58:00.171435 memdb@flush created L0@7 N·1 S·284B "htt..ata,v3":"htt..ata,v3"
+13:58:00.172038 version@stat F·[2] S·472B[472B] Sc·[0.50]
+13:58:00.220300 db@janitor F·4 G·0
+13:58:00.220326 db@open done T·74.907412ms
+13:58:00.220409 db@close closing
+13:58:00.220459 db@close done T·49.005µs
+=============== Jul 24, 2018 (EEST) ===============
+13:59:20.218605 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:59:20.226820 version@stat F·[2] S·472B[472B] Sc·[0.50]
+13:59:20.226836 db@open opening
+13:59:20.226868 journal@recovery F·1
+13:59:20.227796 journal@recovery recovering @8
+13:59:20.250224 memdb@flush created L0@10 N·1 S·402B "htt..ata,v5":"htt..ata,v5"
+13:59:20.251058 version@stat F·[3] S·874B[874B] Sc·[0.75]
+13:59:20.311089 db@janitor F·5 G·0
+13:59:20.311117 db@open done T·84.275543ms
+13:59:20.311186 db@close closing
+13:59:20.311275 db@close done T·76.248µs

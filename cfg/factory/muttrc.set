@@ -1,0 +1,44 @@
+#set from = "vilis@sitko.com"
+#set realname = "Guillermo Garron"
+#set imap_user = "vilis@mail.com"
+#set imap_pass = "Me03ir8038"
+#set folder = "imaps://imap.mail.com:993"
+#set spoolfile = "+INBOX"
+#set postponed ="+[Gmail]/Drafts"
+#set header_cache =~/.mutt/cache/headers
+#set message_cachedir =~/.mutt/cache/bodies
+#set certificate_file =~/.mutt/certificates
+#set smtp_url = "smtp://user@smtp.gmail.com:587/"
+#set smtp_pass = "password"
+#set move = no 
+#set imap_keepalive = 900
+
+# About Me
+set from = "arduin-raspis@mail.com"
+set realname = "Raspberry Pi"
+
+# My credentials
+set smtp_url = "smtp://arduin-raspis@mail.com@smtp.mail.com:587/"
+set smtp_pass = "EmilsM8d8r8"
+set imap_user = "arduin-raspis@mail.com"
+set imap_pass = "EmilsM8d8r8"
+
+# My mailboxes
+set folder = "imaps://imap.mail.com:993"
+set spoolfile = "+INBOX"
+
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+# GnuPG bootstrap
+# source ~/.mutt/gpg.rc

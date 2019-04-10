@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export SENDGRID_API_KEY=<ARDUINO EMAIL KEY>
+
+exit 0
